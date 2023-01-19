@@ -3,6 +3,7 @@ name: Lock closed issue
 on: 
   issues:
     types: [closed]
+  workflow_dispatch:
 
 jobs:
   lock:
