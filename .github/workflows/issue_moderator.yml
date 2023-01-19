@@ -5,6 +5,7 @@ on:
     types: [opened]
   pull_request:
     types: [opened, edited]
+  workflow_dispatch:
 
 jobs:
   autoclose:
